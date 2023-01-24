@@ -1,0 +1,117 @@
+.body {
+    margin: 0px
+}
+
+
+.nav_button_current {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    height: 60px;
+    line-height: 60px;
+    width: 24.725vw;
+    border: 0.14vw solid black;
+    background-color: white;
+}
+
+.nav_button {
+    display: block;
+
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    height: 60px;
+    line-height: 60px;
+    width: 24.725vw;
+    border: 0.14vw solid black;
+    /* border: 0.25vw solid black; */
+
+    /* background-color: white; */
+    background-color: grey;
+
+}
+
+.nav_bar_body>tr>td:first-of-type>a {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.nav_bar_body>tr>td:last-of-type>a {
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.button {
+    text-align: center;
+    display: inline-block;
+    line-height: 30px;
+    width: 80px;
+    height: 30px;
+    border: solid black 1px;
+    border-radius: 7px;
+    background-color: grey;
+}
+
+.button_white {
+    text-align: center;
+    display: inline-block;
+    line-height: 20px;
+    width: 80px;
+    height: 20px;
+    border: solid black 1px;
+    border-radius: 7px;
+    background-color: white;
+}
+
+.cimage {
+    width: 20px;
+    height: 20px;
+    float: right;
+}
+
+.heading_div {
+    border: solid black 1px;
+    padding: 5px;
+    align-items: center;
+    text-align: center;
+}
+
+.chat_div {
+    border: solid black 1px;
+    padding-top: 30px;
+    padding-bottom: 200px;
+}
+
+.options_div {
+    border: solid black 1px;
+    padding: 10px;
+    text-align: center;
+}
+
+.options_div_add {
+    border: solid black 1px;
+    padding: 10px;
+    text-align: center;
+}
+
+.options_table tr td:nth-of-type(1) {
+    text-align: center;
+}
+
+.options_table tr td:nth-of-type(2) {
+    text-align: left;
+}
+
+.options_table {
+
+    width: 100SW;
+    border-spacing: 2em;
+    border-collapse: separate;
+    margin: auto;
+
+}
+
+.input {
+    width: 70vw;
+}

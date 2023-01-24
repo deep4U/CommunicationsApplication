@@ -1,0 +1,81 @@
+.user_table {
+    width: 100%;
+
+
+    border-collapse: separate;
+    border: solid black 1px;
+    border-radius: 4px;
+    margin: auto;
+}
+
+.user_table th:first-child {
+    border-top-left-radius: 4px;
+}
+
+.user_table th:last-child {
+    border-top-right-radius: 4px;
+}
+
+.user_table tr:last-of-type td:last-of-type {
+    border-bottom-right-radius: 4px;
+}
+
+.user_table tr:last-of-type td:first-of-type {
+    border-bottom-left-radius: 4px;
+}
+
+.user_table tr:nth-child(even) {
+    background-color: #F0F0F0;
+}
+
+.user_table tr:nth-child(odd) {
+    background-color: #FFFFFF;
+}
+
+.user_table tr th {
+    background-color: #CCCCCC;
+}
+
+.body {
+    margin: 0px
+}
+
+
+.nav_button_current {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    height: 60px;
+    line-height: 60px;
+    width: 24.725vw;
+    border: 0.14vw solid black;
+    background-color: white;
+}
+
+.nav_button {
+    display: block;
+
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    height: 60px;
+    line-height: 60px;
+    width: 24.725vw;
+    border: 0.14vw solid black;
+    /* border: 0.25vw solid black; */
+
+    /* background-color: white; */
+    background-color: grey;
+
+}
+
+.nav_bar_body>tr>td:first-of-type>a {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.nav_bar_body>tr>td:last-of-type>a {
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
