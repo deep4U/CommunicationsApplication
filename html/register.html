@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/register.css">
+</head>
+
+<body>
+    <!-- registration form with 4 feilds 2 for name and email resp. and 2 for password and confirm password -->
+    <!-- submit button is named as Register -->
+    <table class="form_table" cellpadding="10" cellspacing="0">
+        <tr>
+            <td>
+            <td>
+                <h1 class="heading">Register</h1>
+            </td>
+            </td>
+        </tr>
+        <form class="register_form" action="./register-success.html" method="GET">
+            <tr>
+                <td class="text_col"><b>Full Name</b></td>
+                <td>
+                    <input type="text" name="name" value="Anne Hunter" class="text_box">
+                </td>
+                </br>
+            </tr>
+            <tr>
+                <td class="text_col"><b>Email</b></td>
+
+                <td>
+                    <input type="text" name="email" value="anne.hunter@mail.com" class="text_box">
+                </td>
+
+            </tr>
+            <tr>
+                <td class="text_col"><b>Password</b></td>
+                <td>
+                    <input type="text" name="password" value="*****" class="text_box">
+                </td>
+            </tr>
+            <tr>
+                <td class="text_col"> <b>Confirm Password</b></td>
+
+                <td>
+                    <input type="text" name="confirm_password" value="*****" class="text_box">
+                </td>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td class="register_col">
+                    <input class="register_button" type="submit" value="Register" name="Register">
+                </td>
+            </tr>
+        </form>
+    </table>
+</body>
+
+</html>
