@@ -1,0 +1,37 @@
+.heading {
+    text-align: center;
+}
+
+form.edit-form {
+    text-align: center;
+}
+
+table.form-table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form.edit-form {
+    text-align: center;
+}
+
+input.submit-button {
+    border-radius: 09px;
+    width: 100px;
+    height: 25px;
+    background-color: #66FFFF;
+    font-weight: bold;
+}
+
+td.text-col {
+    text-align: right;
+}
+
+input.text-box {
+    max-width: 150px;
+    border-radius: 5px;
+}
+
+td.register-col {
+    text-align: center;
+}
